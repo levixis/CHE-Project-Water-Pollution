@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg img.jpeg'); /* Set the background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+    color: #333; /* Dark gray text color */
+}
+
+h1, h2, h3 {
+    color: #000; /* Black headings */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5; /* Adjust line-height for better readability */
+    color: #000; /* Black text */
+}
+
+.primary-button, .secondary-button, .get-started-button {
+    padding: 15px 25px; /* Increase button padding for better click target */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fff;
+    font-size: 16px;
+}
+
+#call-to-action {
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Center the "Join Us" line */
+#call-to-action h2 {
+    margin-bottom: 20px;
+}
+
+.primary-button {
+    background-color: hsl(170, 100%, 40%); /* Sea green button background */
+}
+
+.primary-button:hover {
+    background-color: hsl(170, 100%, 30%); /* Darker sea green on hover */
+}
+
+.secondary-button {
+    background-color: hsl(210, 100%, 50%); /* Light blue button background */
+}
+
+.secondary-button:hover {
+    background-color: hsl(210, 100%, 40%); /* Darker light blue on hover */
+}
+
+.get-started-button {
+    background-color: hsl(170, 100%, 40%); /* Sea green button background */
+    color: #fff; /* White button text */
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Change display to block to occupy full width */
+    width: fit-content; /* Set width to fit the content */
+    margin: auto; /* Center the button horizontally */
+    transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+    background-color: hsl(170, 100%, 30%); /* Darker sea green on hover */
+}
+
+.link {
+    color: hsl(210, 100%, 50%); /* Light blue links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: hsl(210, 100%, 40%); /* Darker light blue on hover */
+}
+
+.container {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid hsl(195, 70%, 60%); /* Light aqua border for sections */
+    border-radius: 5px; /* Add subtle rounded corners for sections */
+}
+
+header {
+    background-color: hsl(200, 70%, 90%); /* Lighter aqua for header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid hsl(195, 70%, 60%); /* Light aqua border for header */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a.active {
+    color: hsl(170, 100%, 40%); /* Sea green for active page link */
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Image styling */
+#images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    text-align: center;
+    width: 45%;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styles for text content */
+.section.water-pollution .strategy h3 {
+    color: #000; /* Black headings */
+}
+
+.strategy ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.strategy ul li {
+    margin-bottom: 10px;
+}
+
+.strategy ul li:before {
+    content: "\2022";
+    color: #000; /* Black bullet point */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media (max-width: 768px) {
+    .section .content {
+        padding: 0 20px;
+    }
+}
+.content {
+    background-color: hsl(195, 70%, 80%);
+    padding: 20px; /* Add padding as needed */
+}
+footer {
+    text-align: center; /* Center-align the content */
+    margin-top: 20px; /* Add some space between the last section and the footer */
+}
